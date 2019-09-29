@@ -4,7 +4,6 @@ import torch.nn as nn
 from .token_embedder import TokenEmbedder
 
 
-# TODO: residual/highway lstm connections
 class LanguageModel(nn.Module):
     def __init__(
         self,
